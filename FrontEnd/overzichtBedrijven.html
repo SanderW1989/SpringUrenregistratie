@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel=stylesheet href=css/UrenRegistratieMain.css>
+        <link rel=stylesheet href=css/DropDownMenu.css>
+
+        <script src="JavaScript/lib/jquery-3.3.1.min.js"></script>
+        <script src="JavaScript/overzichtBedrijven.js"></script>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="mijnOverzicht.html">
+                <img class="logoWT" src="images/logoWT.svg">
+            </a>
+            
+            <ul class="menuList">
+                <li><a href="mijnOverzicht.html">mijn overzicht</a></li>
+                <li class="dropDown">
+                    <button class="dropButton">beheer accounts &#11167;</button>
+                    <div class="dropDownContent">
+                        <a href="overzichtWerknemers.html">Werknemers</a>
+                        <a href="overzichtKandidaten.html">kandidaten</a>
+                        <a href="overzichtBedrijven.html">bedrijven</a>
+                        <a href="overzichtContactpersonen.html">Contactpersonen</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slide-panel">
+             <div class="infoContainer">
+                <div>
+                    <table id="bedrijvenTable">
+                        <tr>
+                            <td>
+                                Bedrijfsnaam:
+                            </td>
+                            <td>
+                                Adres:
+                            </td>
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Working Talent
+                            </td>
+                            <td>
+                                Landsmeer 12
+                            </td>
+                            <td class="tableButtonHolder">
+                                <a class="wijzigButton" href="wijzigBedrijf.html">&#9998;</a>
+                            </td>
+                            <td class="tableButtonHolder">
+                                <input type="button" class="verwijderButton" value="&#10006;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Atos
+                            </td>
+                            <td>
+                                Amstelveen 24
+                            </td>
+                            <td class="tableButtonHolder">
+                                <a class="wijzigButton" href="wijzigBedrijf.html">&#9998;</a>
+                            </td>
+                            <td class="tableButtonHolder">
+                                <input type="button" class="verwijderButton" value="&#10006;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                KLM
+                            </td>
+                            <td>
+                                Schiphol 66
+                            </td>
+                            <td class="tableButtonHolder">
+                                <a class="wijzigButton" href="wijzigBedrijf.html">&#9998;</a>
+                            </td>
+                            <td class="tableButtonHolder">
+                                <input type="button" class="verwijderButton" value="&#10006;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ING
+                            </td>
+                            <td>
+                                Amsterdam 66
+                            </td>
+                            <td class="tableButtonHolder">
+                                <a class="wijzigButton" href="wijzigBedrijf.html">&#9998;</a>
+                            </td>
+                            <td class="tableButtonHolder">
+                                <input type="button" class="verwijderButton" value="&#10006;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dearnova
+                            </td>
+                            <td>
+                                Utrecht 66
+                            </td>
+                            <td class="tableButtonHolder">
+                                <a class="wijzigButton" href="wijzigBedrijf.html">&#9998;</a>
+                            </td>
+                            <td class="tableButtonHolder">
+                                <input type="button" class="verwijderButton" value="&#10006;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td class="tableButtonHolder" colspan="2">
+                                <a class="tableButton" href="maakBedrijf.html">nieuw bedrijf</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>  
+            </div>
+        </div>       
+    </body>
+</html>

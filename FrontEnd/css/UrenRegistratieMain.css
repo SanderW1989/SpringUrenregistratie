@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    color:#0f1411;
+    background-color:#eaeff2;
+    margin:0;
+}
+h1{
+    font-family: "museo-sans",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:#f6a21c;
+    color:#bceb1b;
+} 
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:red;
+}
+div.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 100px;
+    height: 100px;
+    background:#0f1410;
+    width:100%;
+    position:fixed;
+    z-index: 10;
+}           
+img.logoWT{
+    margin:10px;
+    float: left;
+    padding: 0;
+    display:block;
+    height: 80px;
+    width: 185px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    
+    font-family: "museo-sans",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:#f6a21c;
+    color:#bceb1b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+li a:hover, .tableButton:hover , .verwijderButton:hover, .wijzigButton:hover {
+    background-color:#1a231c;
+}
+
+div.slide-panel{
+    position: relative;
+    padding-top: 100px;
+}
+div.infoContainer{
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fff;
+    width:80%;
+    font-size: 15px;
+    line-height: 26px;
+}
+div.infoContainerTitle{
+    font-family: "museo-sans",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 500px;
+    color:#f6a21c;
+    background:#0f1410;
+    color:#bceb1b;
+}
+
+
+a{
+    text-decoration: none;
+    color:#bceb1b;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:first-child{
+    font-family: "museo-sans",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #0f1410;
+    color: #bceb1b;
+}
+.tableButton, .verwijderButton, .wijzigButton{
+    display: block;
+    font-family: "museo-sans",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:#bceb1b;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    border: none;
+    outline: none;
+    background:#0f1410;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding:8px;
+    overflow: hidden;
+    height: 100%;    
+    width:140px;
+}
+.tableButtonHolder{
+    padding: 0px;
+    width:70px;
+}
+.verwijderButton{    
+    color: red;
+    width:100%;;
+}
+.wijzigButton{
+    color:#f6a21c;
+    padding-left: 0;
+    padding-right: 0;
+    width:100%;
+}
+
+input[type=number]{
+    -moz-appearance:textfield;
+    width: 30px;
+} 
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button, { 
+  -webkit-appearance: textfield; 
+  margin: 0; 
+  width: 30px;
+}
